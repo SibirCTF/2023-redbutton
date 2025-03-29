@@ -1,0 +1,44 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/AlumniSansCollegiateOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/AlumniSansCollegiateOne-Italic.ttf);
+    font-weight: italic;
+  }
+
+body{
+    font-family: myFirstFont;
+    background-image: url(./1.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#roma{
+    width: 300px;
+    text-align: center;
+    color: chartreuse;
+    align-self: center;
+    text-shadow: 2px 2px yellow;
+}
+
+#artyom{
+    width: 250px;
+    text-align: center;
+    color: cyan;
+    align-self: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px lightcyan;
+}
+
+#ромаиартём{
+    width: 250px;
+    text-align: center;
+    color: darkred;
+    align-self: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px brown;
+}
+
